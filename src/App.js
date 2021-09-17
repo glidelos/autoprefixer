@@ -18,6 +18,12 @@ function App() {
           Learn React
         </a>
       </header>
+      <div className="grid-box">
+        <div>Blocco1</div>
+        <div>Blocco2</div>
+        <div>Blocco3</div>
+        <div>Blocco4</div>
+      </div>
     </div>
   );
 }

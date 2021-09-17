@@ -1,3 +1,5 @@
+/* autoprefixer grid: autoplace */
+
 .App {
   text-align: center;
 }
@@ -26,6 +28,19 @@
 
 .App-link {
   color: #61dafb;
+}
+.grid-box {
+  width: 620px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  display: grid;
+  margin: auto;;
+}
+
+.grid-box > * {
+    height: 300px;;
+    border:1px solid lightblue
 }
 
 @keyframes App-logo-spin {
