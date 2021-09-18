@@ -1,0 +1,46 @@
+$base: 10rem;
+$gap: 2rem;
+
+.grid{    
+    display: grid;
+    &, &__list--item{
+        font-size: $font-medium;
+    }
+    &__navbar{
+        background-color: rgb(14, 9, 50);
+        padding-block: 1.2rem;
+    }
+    &__list{
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap:2rem;
+        width: fit-content;
+        justify-self: flex-end;
+        margin-right: 3rem;
+        &--item{
+            width: fit-content;
+            border:2px solid aqua;
+            border-radius: .5rem;
+            color:white;
+        }
+    }
+    &__box{
+        background: rgb(159, 186, 196); 
+        width: gridBox($base, $gap);
+        grid-template-columns: repeat(2, 1fr);
+        justify-self: center;
+        border-radius: .8rem;
+        padding-block: 2rem;
+        &--item{
+            height: $base;
+            place-content: center center;
+            border:1px solid white;
+            border-radius: inherit;
+        }
+    }
+    &__text{
+        max-width: 120rem;
+        justify-self: center;
+        padding: 2rem;
+        background-color: rgb(249, 176, 176);
+    }
+}

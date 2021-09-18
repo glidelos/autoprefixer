@@ -29,5 +29,8 @@
     "maintained node versions",
     "not dead",
     "IE 11"
-  ]
+  ],
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
 }

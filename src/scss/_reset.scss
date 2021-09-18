@@ -1,0 +1,14 @@
+html, 
+body ,
+ul, li,
+button,
+*::after, 
+*::before {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 10px;
+    list-style: none;
+    border:none;
+    background: none;
+}

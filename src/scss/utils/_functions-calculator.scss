@@ -1,0 +1,3 @@
+@function gridBox($base, $gap){
+    @return $base * 2 + $gap;
+}
